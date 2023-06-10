@@ -1,0 +1,72 @@
+main{
+    background-image:radial-gradient( rgb(39, 17, 17), lightblue) ;
+    width: 100%;
+    height: 95vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 20px;
+    width: 20%;
+    height: 80vh;
+    background-color: gray;
+    padding: 2% 1%;
+    border-radius: 10%;
+    box-shadow: 3px 3px 3px whitesmoke;
+
+}
+.displaySection{
+    width: 90%;
+    height: 100px;
+    background-color: gray;
+    cursor: pointer;
+    color: black;
+    font-size: 30px;
+    outline: none;
+    border: none;
+}
+
+.numberSection div > input:hover{
+    cursor: pointer;
+}
+.numberSection div > input{
+    font-size: large;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 4px 6px black;
+    background-color: gray;
+    border-radius: 8px;
+    width: 22%;
+    height: 50px;
+}
+.equals{
+    width: 130px;
+    font-size: large;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 4px 6px black;
+    background-color : gray;
+    border-radius: 8px;
+    height: 50px;
+}
+button:hover{
+    cursor: pointer;
+}
+.outputBox{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.outputBox > button{
+    width: 130px;
+    font-size: large;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 4px 6px white;
+    background-color : gray;
+    border-radius: 8px;
+    height: 50px;
+}
